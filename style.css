@@ -1,0 +1,89 @@
+body {
+  background-color: #F5F8F9;
+  font-family: roboto, sans-serif;
+  color: #7393a7;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+h1, h2, h3 {
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.btn {
+  color: #7393a7;
+  border: 1px solid #7393a7;
+  padding: 8px 24px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+  text-decoration: none;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+img {
+  width: 130px;
+  border-radius: 10px;
+}
+
+div {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  margin: 20px auto;
+  text-align: center;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+div {
+    display: block;
+}
+
+.list {
+  list-style: none;
+  padding-left: 0px;
+  display:inline-block;
+}
+
+li {
+  display:inline-block;
+  padding: 10px;
+}
+
+
+i {
+  color: black;
+  font-size: 50px;
+  opacity: 0.6;
+}
+
+i:hover {
+  opacity: 1;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  div {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  div {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  div {
+    width: 300px;
+  }
+}
